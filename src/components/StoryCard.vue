@@ -1,0 +1,1 @@
+<!-- Página que sirve para mostrar la historia y sus imágenes correspondientes -->

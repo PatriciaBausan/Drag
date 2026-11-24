@@ -1,0 +1,1 @@
+<!-- Página para crear los espacios donde arrastrar opciones -->

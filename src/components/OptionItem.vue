@@ -1,0 +1,1 @@
+<!-- Página que sirve para mostrar las opciones que se pueden arrastrar -->
