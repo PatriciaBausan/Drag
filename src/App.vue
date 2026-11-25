@@ -1,11 +1,3 @@
 <template>
-  <div>
-    <NavBar />
-
-    <RouterView />
-  </div>
+  <RouterView />
 </template>
-
-<script setup>
-import NavBar from './components/NavBar.vue'
-</script>

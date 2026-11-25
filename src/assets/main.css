@@ -1,35 +1,39 @@
-@import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+/* =====================================
+   NUMILANDIA - ESTILOS GENERALES
+===================================== */
+
+/* Variables de colores */
+:root {
+  --color-principal: #8b5cf6;
+  --color-secundario: #ec4899;
+  --color-fondo: #fff1f8;
+  --color-texto: #374151;
+  --color-blanco: #ffffff;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+/* Configuración general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+/* Página completa */
+body {
+  font-family: Arial, sans-serif;
+  color: var(--color-texto);
+  background-color: var(--color-fondo);
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+/* Imágenes */
+img {
+  max-width: 100%;
+  display: block;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+/* Botones: configuración común */
+button {
+  font-family: inherit;
+  cursor: pointer;
 }
